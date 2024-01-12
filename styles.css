@@ -1,0 +1,205 @@
+body{
+	font-family: Montserrat,;
+}
+#title{
+	color: #fff;
+	background-color: #ff4c68;
+}
+
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+	font-family: Ubuntu;
+	font-weight: 400;
+	font-size: 3.5rem;
+}
+
+.ms-auto{
+	margin-left: 300px;
+}
+
+.nav-item{
+	padding:0 18px;
+}
+ 
+.nav-link{
+	font-size: 1.2rem;
+	font-family: Montserrat;
+	font-weight: lighter  ;
+}
+
+.iphonedog{
+	margin: 1% 15%;
+	position: absolute;
+	transform: rotate(20deg);
+}
+
+.experiment{
+	text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+
+	#title{
+		text-align: center;
+	}
+
+	.iphonedog{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+h1{
+	padding-bottom: 40px ;
+	font-size: 5rem;
+}
+
+h2{
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h3{
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+}
+
+h6{
+	padding: 10px 20px;
+}
+
+p{
+	color: #8f8f8f;
+}
+
+/*.row{
+	padding-top:40px;
+}
+*/
+.btn{
+	margin: auto 15px;
+}
+
+
+
+				/*Features*/
+
+
+
+#features{
+	background-color: #fff;
+	position: relative;
+	padding: 10% 15%
+}		
+
+.feature-box{
+	text-align: center;
+}		
+
+.icon{
+	color: #ef8172;
+	padding-bottom: 15px;
+}
+
+.icon:hover{
+	color: #ff4c68;
+}
+
+
+
+				/*Testimonials*/
+
+
+
+#testimonies{
+	background-color:#ef8172 ;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.testimonial-image{
+	width: 15%;
+	border-radius: 100%;
+	margin: 25px;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+
+
+				/*Press*/
+
+
+
+#press{
+	background-color:#ef8172  ;
+	text-align: center;
+}
+
+.press-logo{
+	width: 150px;
+	margin: 20px 20px 50px;
+}
+
+
+
+				/*Pricing-Plan*/
+
+
+.card{
+	width: 300px;
+	margin: 50px auto;
+	padding: 3% auto;
+}
+
+#pricing-plan{
+	text-align: center;
+	margin: 2.5rem auto;
+}
+ 
+.row-item{
+	margin: auto -100px;
+}
+
+.card-body{
+	margin-bottom: 20px;
+}
+
+
+				/*Second Last Section*/
+
+
+.final{
+	padding: 20px auto;
+	background-color:#ff4c68;
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+}
+
+				/*Footer*/
+
+
+.footer{
+	color: #8f8f8f;
+	padding-bottom: 3%;
+	text-align: center;
+}
+
+.social-icons{
+	margin: 20px 15px;
+}
